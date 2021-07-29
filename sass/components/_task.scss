@@ -1,0 +1,30 @@
+.task__list {
+    @extend %list;
+    display: flex;
+}
+
+.task__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.task__img{
+    position: relative;
+}
+
+.task__title {
+    position: absolute;
+    bottom: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    text-align: center;
+
+    display: block;
+    width: 370px;
+    height: 70px;
+
+    font-size: inherit;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $primary-white-color;
+    background-color: $bg-title-color;
+}

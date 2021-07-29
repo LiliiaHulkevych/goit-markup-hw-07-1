@@ -1,0 +1,12 @@
+.grid {
+    @extend %list;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.grid__item {
+    margin: 15px;
+    display: block;
+    max-width: 100%;
+}
